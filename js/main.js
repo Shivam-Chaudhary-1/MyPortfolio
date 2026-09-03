@@ -41,6 +41,7 @@ sections.forEach(section => sectionObserver.observe(section));
 // ── Navbar shadow on scroll ───────────────────────────────────────────────────
 const navbar = document.getElementById('navbar');
 
+// adding an event listener
 window.addEventListener('scroll', () => {
   navbar.classList.toggle('shadow-lg', window.scrollY > 50);
 }, { passive: true });
