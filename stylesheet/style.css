@@ -49,7 +49,7 @@ body {
   }
 }
 
-/* Scrollbar */
+/* Adding Scrollbar */
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: #0d1117; }
 ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 3px; }
